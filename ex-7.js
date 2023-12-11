@@ -1,5 +1,7 @@
 function isPalindrome(string) {
-  // Start coding here
+  const s = string.toLowerCase();
+  const r = s.split('').reverse().join('');
+  return s === r;
 }
 
 //Example case
